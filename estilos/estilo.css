@@ -1,27 +1,53 @@
 t {
-    color: rgb(255, 0, 0);
+    color: #c24e01;
   }
 
 ta {
-    color: yellow;
-}
-
-h1, p, li {
-    color: white;
+    color: #070068;
 }
 
 html {font-size: 16px; /* px significa "pixels": o tamanho da fonte base é agora de 12 pixels */
-      font-family: 'Roboto Mono', monospace; /* este deve ser o nome da fonte que você obteve no Google Fonts */
-      background-color: black;
-    }
+     font-family: 'Open Sans', sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+      background-color: #777777;
+   }
 
 h1 {
-    font-size: 60px;
+    font-size: 42px;
     text-align: center;
-  }
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    color: rgb(87, 87, 87);
+    letter-spacing: 0px;
+}
   
-p, li {
-    font-size: 14px;
-    line-height: 2;
-    letter-spacing: 1px;
-  }
+p, p2, li {
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+p {
+    text-indent: 40px;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 20px 20px 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+box {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 20px 20px 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+img {
+    display: block;
+    width: 75px ;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
