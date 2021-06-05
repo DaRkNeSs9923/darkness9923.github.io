@@ -34,7 +34,7 @@ function calc1() {
       document.getElementById("result1").innerHTML = (resultado).toFixed(2);
 
     } else {
-      document.getElementById('pp').innerHTML = "<p1 id='P1'> você precisa tirar <span id='result1'></span> para ser aprovado.</p1>";
+      document.getElementById('pp').innerHTML = "<p1 id='P1'> você precisa tirar <span id='result1'></span> na final para ser aprovado.</p1>";
       document.getElementById("result1").innerHTML = (resultado).toFixed(2);
     }
 
