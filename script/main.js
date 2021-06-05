@@ -19,3 +19,4 @@ function validate(evt) {
     }
   }
 //--------------
+//var mediafinal = 
