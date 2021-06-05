@@ -1,23 +1,20 @@
-//const meuCabecalho = document.querySelector('h1');
-//meuCabecalho.textContent = 'Ola mundo!';
-// para previnir que coloquem letras nos espaços
 function validate(evt) {
-    var theEvent = evt || window.event;
-  
-    // Handle paste
-    if (theEvent.type === 'paste') {
-        key = event.clipboardData.getData('text/plain');
-    } else {
+  var theEvent = evt || window.event;
+
+  // Handle paste
+  if (theEvent.type === 'paste') {
+    key = event.clipboardData.getData('text/plain');
+  } else {
     // Handle key press
-        var key = theEvent.keyCode || theEvent.which;
-        key = String.fromCharCode(key);
-    }
-    var regex = /[0-9]|\./;
-    if( !regex.test(key) ) {
-      theEvent.returnValue = false;
-      if(theEvent.preventDefault) theEvent.preventDefault();
-    }
+    var key = theEvent.keyCode || theEvent.which;
+    key = String.fromCharCode(key);
   }
+  var regex = /[0-9]|\./;
+  if (!regex.test(key)) {
+    theEvent.returnValue = false;
+    if (theEvent.preventDefault) theEvent.preventDefault();
+  }
+}
 //--------------
 
 function calc1() {
@@ -45,8 +42,7 @@ function calc1() {
 
 }
 
-function calc2() 
-{
+function calc2() {
   num1 = parseFloat(document.getElementById("unidade11").value) || 0;
   num2 = parseFloat(document.getElementById("unidade22").value) || 0;
   final1 = parseFloat(document.getElementById("final11").value) || 0;
