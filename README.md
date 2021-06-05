@@ -1,2 +1,2 @@
 # Média Final UEPB
-Calcular a média final necessária para uma cadeira na UEPB
+Calcule a nota da final necessária para passar em uma disciplina na UEPB.
