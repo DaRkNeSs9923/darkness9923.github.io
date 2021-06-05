@@ -31,13 +31,13 @@
         <input type="text" id="unidade1" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" size="10" placeholder="Unidade 1" value="" maxlength="4"/> 
         <input type="text" id="unidade2" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" size="10" placeholder="Unidade 2" value="" maxlength="4"/>
         <input type="button" value="Calcular" onclick="calc1()"/> = 
-        <p1 id="P1"> você precisa tirar <span id="result1" step="0.01"></span> para ser aprovado.</p1>
+        <p1 id="P1"> você precisa tirar <span id="result1">???</span> na final para ser aprovado.</p1>
         <p> Agora para saber se você foi aprovado na final, adicione abaixo suas notas da primeira unidade, segunda unidade e final, nos determinados espaços indicados: </p>    
         <input type="text" id="unidade11" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" size="10" placeholder="Unidade 1" value="" maxlength="4"/> 
         <input type="text" id="unidade22" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" size="10" placeholder="Unidade 2" value="" maxlength="4"/>
-        <input type="text" id="final11" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" size="10" placeholder="final" value=""/>
+        <input type="text" id="final11" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" size="10" placeholder="Final" value=""/>
         <input type="button" value="Calcular" onclick="calc2()"/> = 
-        <span id="result2"></span>
+        <span1 id="result2"></span1>
     </box>
 
     <script src="script/main.js"></script>
