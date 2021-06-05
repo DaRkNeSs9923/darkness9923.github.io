@@ -18,8 +18,12 @@ h1 {
     color: rgb(87, 87, 87);
     letter-spacing: 0px;
 }
-  
-p, p2, li {
+
+span {
+    background-color: rgb(182, 182, 182);
+}
+
+p, li {
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.5px;
