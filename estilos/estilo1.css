@@ -13,3 +13,11 @@ p, p1 {
     color: rgb(0, 0, 0);
     text-indent: 40px;
 }
+box {
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 20px 20px 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
