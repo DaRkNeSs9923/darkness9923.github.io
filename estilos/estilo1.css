@@ -6,6 +6,10 @@ html {font-size: 16px; /* px significa "pixels": o tamanho da fonte base é agor
      background-color: #ffffff;
 }
 p, p1 {
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
     text-align: justify;
-
+    color: rgb(0, 0, 0);
+    text-indent: 40px;
 }
