@@ -1,4 +1,4 @@
 {
     "git.allowNoVerifyCommit": true,
-    "git.confirmNoVerifyCommit": false
+    "git.enableSmartCommit": true
 }
