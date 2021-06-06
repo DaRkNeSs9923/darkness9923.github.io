@@ -20,4 +20,5 @@ box {
     background-color: #ffffff;
     padding: 0 20px 20px 20px;
     border: 2px solid rgb(0, 0, 0);
+    box-sizing: content-box;
 }
